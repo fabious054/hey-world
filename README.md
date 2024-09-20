@@ -6,5 +6,6 @@
 
 - Initialized  with npx creact-react-app [projectname]
 - React Router install => npm install react-router-dom@6
+- Using module.css for styling
 
 [React Router](https://reactrouter.com/en/v6.3.0)
