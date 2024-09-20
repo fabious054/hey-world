@@ -1,12 +1,18 @@
-import { Link } from 'react-router-dom';
+import { Link, useActionData, useLocation } from 'react-router-dom';
 import styles from './Menu.module.css';
+import MenuLink from '../MenuLink';
 
 const Menu = () => {
+    
     return (
         <header>
             <nav className={styles.navigation}>
-               <Link to="/" className={styles.link}>Home</Link>
-               <Link to="/about" className={styles.link}>About me</Link>
+                <MenuLink to="/" >
+                    Home
+                </MenuLink>
+                <MenuLink to="about">
+                    About me
+                </MenuLink>
             </nav>
         </header>
     );
